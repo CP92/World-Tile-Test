@@ -1,0 +1,8 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://7j1drprmcpgw"]
+
+[ext_resource type="Shader" path="res://selected_tile_shader.gdshader" id="1_rpqle"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_rpqle")
+shader_parameter/onoff = 0.4

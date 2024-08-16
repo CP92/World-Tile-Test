@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://lihoa25v81sy"]
+
+[ext_resource type="Script" path="res://addons/camera/camera.gd" id="2_3b2uc"]
+[ext_resource type="Script" path="res://WorldHexGrid.gd" id="3_muolx"]
+
+[node name="World" type="Node3D"]
+
+[node name="WorldHexGrid" type="Node3D" parent="."]
+script = ExtResource("3_muolx")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 5, 0)
+script = ExtResource("2_3b2uc")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 5, 0)

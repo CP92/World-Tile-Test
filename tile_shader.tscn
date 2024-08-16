@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://djlc4pvpiycpb"]
+
+[ext_resource type="PackedScene" uid="uid://dsms1xr3l2sde" path="res://grass_hex_static.tscn" id="1_6y0kn"]
+
+[node name="GrassHexTile" type="Node3D"]
+
+[node name="GrassHexStatic" parent="." instance=ExtResource("1_6y0kn")]
